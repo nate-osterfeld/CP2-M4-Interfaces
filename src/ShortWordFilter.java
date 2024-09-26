@@ -3,6 +3,6 @@ public class ShortWordFilter implements Filter {
     public boolean accept(Object x) {
         String s = (String) x;
 
-        return s.length() > 5;
+        return s.length() < 5;
     }
 }

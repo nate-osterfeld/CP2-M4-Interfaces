@@ -3,6 +3,7 @@ public class BigRectangleFilter implements Filter {
     double height;
     int ID;
 
+    // Could also pass in awt.Rectangle object which takes width and height properties
     public BigRectangleFilter(double width, double height, int ID) {
         this.width = width;
         this.height = height;
